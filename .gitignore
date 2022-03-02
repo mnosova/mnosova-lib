@@ -1,0 +1,14 @@
+node_modules/
+storybook-static/
+build/
+out/
+dist/
+src/workspace.code-workspace
+npm-debug.log
+.idea
+.vscode
+.size-snapshot.json
+package-lock.json
+# OS generated files #
+######################
+.DS_Store
