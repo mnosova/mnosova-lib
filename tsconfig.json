@@ -1,0 +1,36 @@
+{
+  "include": ["src", "typings"],
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {},
+    /* Strict Type-Checking Options */
+    "strict": true,
+    /* Others */
+    "lib": ["dom", "es2015", "es2016.array.include"],
+    "typeRoots": ["node_modules/@types", "src/typings/react-month-picker"],
+    "outDir": "out/", // target for compiled files
+    "target": "esnext",
+    "allowJs": true,
+    "jsx": "react",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "declaration": false, // emit declarations
+    "importHelpers": false, // importing helper functions from tslib
+    "noEmitHelpers": true, // disable emitting inline helper functions
+    "noEmitOnError": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noUnusedLocals": true,
+    "pretty": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "stripInternal": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "keyofStringsOnly": true
+  }
+}
